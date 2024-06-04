@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-float64-parse",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse a string representation of a 128-bit complex number.",
   "license": "Apache-2.0",
   "author": {
