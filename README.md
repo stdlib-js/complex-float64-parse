@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-parseComplex128 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@umd/browser.js' )
+parseComplex128 = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@v0.0.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var parseComplex128 = require( 'path/to/vendor/umd/complex-float64-parse/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@v0.0.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -125,7 +125,7 @@ For details on the string format, see [Complex128][@stdlib/complex/float64/ctor]
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@v0.0.1-umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-real@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-imag@umd/browser.js"></script>
