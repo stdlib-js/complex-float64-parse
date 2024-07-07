@@ -40,7 +40,7 @@
     "@stdlib/assert-is-string": "^0.2.1",
     "@stdlib/complex-float64-ctor": "^0.0.1",
     "@stdlib/string-base-replace": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1",
     "@stdlib/types": "^0.3.2",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
