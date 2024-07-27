@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float64-parse/tags). For example,
+
+```javascript
 import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@v0.0.2-deno/mod.js';
 ```
 
@@ -98,7 +103,7 @@ For details on the string format, see [Complex128][@stdlib/complex/float64/ctor]
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@v0.0.2-deno/mod.js';
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@deno/mod.js';
 import isComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@deno/mod.js';
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-real@deno/mod.js';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-imag@deno/mod.js';
