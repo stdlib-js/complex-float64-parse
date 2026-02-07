@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@esm/index.mjs';
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@v0.0.3-esm/index.mjs';
 ```
 
 #### parseComplex128( str )
@@ -103,7 +103,7 @@ For details on the string format, see [Complex128][@stdlib/complex/float64/ctor]
 <body>
 <script type="module">
 
-import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@esm/index.mjs';
+import parseComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-parse@v0.0.3-esm/index.mjs';
 import isComplex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-complex128@esm/index.mjs';
 import real from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-real@esm/index.mjs';
 import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-imag@esm/index.mjs';
