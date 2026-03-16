@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,27 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var isComplex128 = require( '@stdlib/assert-is-complex128' );
-var real = require( '@stdlib/complex-float64-real' );
-var imag = require( '@stdlib/complex-float64-imag' );
-var parseComplex128 = require( './../lib' );
+// MODULES //
 
-var str = '-0.5 + 1.25i';
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var z = parseComplex128( str );
-console.log( z );
-// => <Complex128>
+import { Complex128 } from '@stdlib/types/complex';
 
-var bool = ( isComplex128( z ) );
-console.log( bool );
-// => true
 
-bool = ( real( z ) === -0.5 );
-console.log( bool );
-// => true
+/**
+* Parse a string representation of a 128-bit complex number.
+*
+* @param str - string representation of a complex number
+* @throws must provide a string recognized as a complex number
+* @returns Complex128 instance
+*
+* @example
+* var str = '5 + 3i';
+*
+* var z = parseComplex128( str );
+* // returns <Complex128>
+*/
+declare function parseComplex128( str: string ): Complex128;
 
-bool = ( imag( z ) === 1.25 );
-console.log( bool );
-// => true
+
+// EXPORTS //
+
+export = parseComplex128;
